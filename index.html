@@ -178,6 +178,22 @@
                         });
                         hideUnnecessaryStuff();
                     });
+
+                    var myVideo = document.querySelector("video");
+
+                    if (myVideo.requestFullscreen) {
+                        myVideo.requestFullscreen();
+                    }
+                    else if (myVideo.msRequestFullscreen) {
+                        myVideo.msRequestFullscreen();
+                    }
+                    else if (myVideo.mozRequestFullScreen) {
+                        myVideo.mozRequestFullScreen();
+                    }
+                    else if (myVideo.webkitRequestFullScreen) {
+                        myVideo.webkitRequestFullScreen();
+                    }
+                    
                 }
                 function captureUserMedia(callback) {
                     var constraints = null;
