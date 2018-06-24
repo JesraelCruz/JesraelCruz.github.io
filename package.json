@@ -1,18 +1,23 @@
 {
-  "name": "my-project",
+  "name": "jesraelcruz.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "budo index.js:bundle.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesraelCruz/JesraelCruz.github.io.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/JesraelCruz/JesraelCruz.github.io/issues"
+  },
+  "homepage": "https://github.com/JesraelCruz/JesraelCruz.github.io#readme",
+  "dependencies": {
     "budo": "^11.3.0",
     "watchify": "^3.11.0"
-  },
-  "dependencies": {
-    "simple-peer": "^9.1.2"
   }
 }
