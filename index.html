@@ -79,7 +79,8 @@
     </head>
 
     <body>
-        <article>
+        <div id="videos-container"></div>
+        <article id="main-body">
 
             <!-- copy this <section> and next <script> -->
             <section class="experiment">
@@ -97,7 +98,6 @@
                 <table style="width: 100%;" id="rooms-list"></table>
 
                 <!-- local/remote videos container -->
-                <div id="videos-container"></div>
             </section>
 
             <script>
@@ -150,6 +150,7 @@
                                 joinUser: broadcaster
                             });
                             hideUnnecessaryStuff();
+                            document.getElementById("main-body").style.display = "none";
                         };
                     },
                     onNewParticipant: function(numberOfViewers) {
