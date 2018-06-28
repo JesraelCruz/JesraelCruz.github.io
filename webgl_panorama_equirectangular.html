@@ -46,7 +46,9 @@
 			init();
 			animate();
 
-			function init() {
+			image = 'https://jesraelcruz.github.io/2294472375_24a3b8ef46_o.jpg';
+
+			function init(image) {
 
 				var container, mesh;
 
@@ -62,7 +64,7 @@
 				geometry.scale( - 1, 1, 1 );
 
 				var material = new THREE.MeshBasicMaterial( {
-					map: new THREE.TextureLoader().load( 'https://jesraelcruz.github.io/2294472375_24a3b8ef46_o.jpg' )
+					map: new THREE.TextureLoader().load( image )
 				} );
 
 				mesh = new THREE.Mesh( geometry, material );
