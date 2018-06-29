@@ -26,6 +26,7 @@ Australia
 au
 Aruba
 aw
+Aland Islands
 ax
 Azerbaijan
 az
@@ -83,6 +84,7 @@ Congo
 cg
 Switzerland
 ch
+Cote d'Ivoire
 ci
 Cook Islands
 ck
@@ -370,6 +372,7 @@ Paraguay
 py
 Qatar
 qa
+Reunion
 re
 Romania
 ro
